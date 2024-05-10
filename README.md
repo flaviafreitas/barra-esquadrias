@@ -26,6 +26,7 @@ Para utilizar essas estilizações no seu projeto, siga os passos abaixo:
        
 
    // Atualização do font-family
+   
     h1 {
         font-family: $fonteBold;
     }
