@@ -13,6 +13,7 @@ Para utilizar essas estilizações no seu projeto, siga os passos abaixo:
 3. Após importar as fontes necessárias para o projeto, atualize o `font-family` com o nome definido na importação. Exemplo:
    
     // Importação da fonte
+   
 @font-face {
     font-family: 'DMSans Bold';
     font-style: normal;
@@ -22,6 +23,7 @@ Para utilizar essas estilizações no seu projeto, siga os passos abaixo:
 
    // Nomeação das fontes no avariables
        $fonteBold: "DMSans Bold";
+       
 
    // Atualização do font-family
     h1 {
@@ -29,7 +31,5 @@ Para utilizar essas estilizações no seu projeto, siga os passos abaixo:
     }
 
    -- Se as fontes importadas já virem com Regular, Medium e Bold, podemos retirar o font-weight
-
-
 
 Certifique-se de compilar o arquivo Sass para que as estilizações sejam aplicadas corretamente no seu projeto.
